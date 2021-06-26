@@ -7,8 +7,9 @@ import './App.css';
 // import BaiTapChiaLayout from './component/BaiTapChiaLayout/BaiTapChiaLayout';
 // import Home from './component/BaiTapChiaLayout/Home';
 // import BaiTapThucHanhLayout from './component/BaiTapThucHanhLayout/BaiTapThucHanhLayout';
-import DataBinding from './DataBinding/DataBinding';
-import DataBindingRFC from './DataBinding/DataBindingRFC';
+// import DataBinding from './DataBinding/DataBinding';
+// import DataBindingRFC from './DataBinding/DataBindingRFC';
+import HandleEvent from './HandleEvent/HandleEvent';
 
 function App() {
 
@@ -16,9 +17,10 @@ function App() {
   return (
     <div className="App">
       {/* <BaiTapThucHanhLayout /> */}
-      <DataBinding />
-      <hr />
-      <DataBindingRFC />
+      {/* <DataBinding /> */}
+      {/* <hr /> */}
+      {/* <DataBindingRFC /> */}
+      <HandleEvent />
     </div>
   );
 }
