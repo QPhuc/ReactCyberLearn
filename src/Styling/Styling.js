@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './Styling.css'
-import style from 'S'
+import './Styling.css';
+import style from './Styling.module.css';
 import Child from './Child'
 
 export default class Styling extends Component {
@@ -8,6 +8,7 @@ export default class Styling extends Component {
         return (
             <div>
                 <p className="txt">Hello</p>
+                <span className={style.txtStyle}>Hello module</span>
                 <Child />
             </div>
         )
