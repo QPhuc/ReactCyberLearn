@@ -11,7 +11,8 @@ import './App.css';
 // import DataBindingRFC from './DataBinding/DataBindingRFC';
 // import HandleEvent from './HandleEvent/HandleEvent';
 // import RenderingCondition from './RenderingConditions/RenderingCondition';
-import StateDemo from './State/StateDemo';
+// import StateDemo from './State/StateDemo';
+import Styling from './Styling/Styling';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       {/* <DataBindingRFC /> */}
       {/* <HandleEvent /> */}
       {/* <RenderingCondition/> */}
-      <StateDemo />
+      {/* <StateDemo /> */}
+      <Styling />
     </div>
   );
 }
