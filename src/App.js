@@ -13,7 +13,8 @@ import './App.css';
 // import StateDemo from './State/StateDemo';
 // import Styling from './Styling/Styling';
 // import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
-import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+// import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
 
 function App() {
 
@@ -29,7 +30,8 @@ function App() {
       {/* <StateDemo /> */}
       {/* <Styling /> */}
       {/* <BaiTapChonXe /> */}
-      <RenderWithLoop />
+      {/* <RenderWithLoop /> */}
+      <BaiTapRenderFilms />
     </div>
   );
 }
