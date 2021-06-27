@@ -1,7 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-
 // import Header from './component/Demo/Header';
 // import HeaderRFC from './component/Demo/HeaderRFC';
 // import BaiTapChiaLayout from './component/BaiTapChiaLayout/BaiTapChiaLayout';
@@ -12,8 +11,8 @@ import './App.css';
 // import HandleEvent from './HandleEvent/HandleEvent';
 // import RenderingCondition from './RenderingConditions/RenderingCondition';
 // import StateDemo from './State/StateDemo';
-import Styling from './Styling/Styling';
-
+// import Styling from './Styling/Styling';
+import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 
 function App() {
 
@@ -27,7 +26,8 @@ function App() {
       {/* <HandleEvent /> */}
       {/* <RenderingCondition/> */}
       {/* <StateDemo /> */}
-      <Styling />
+      {/* <Styling /> */}
+      <BaiTapChonXe />
     </div>
   );
 }
