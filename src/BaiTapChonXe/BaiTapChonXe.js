@@ -10,7 +10,7 @@ export default class BaiTapChonXe extends Component {
         let newState = {
             imgProduct: imgNewProduct
         }
-        
+
         this.setState(newState);
     }
 
@@ -27,28 +27,28 @@ export default class BaiTapChonXe extends Component {
                                 Exterior Color
                             </div>
                             <div className="card-body">
-                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => {this.renderCar(require('../assets/products/black-car.jpg'))}} style={{cursor:'pointer'}}>
+                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => { this.renderCar(require('../assets/products/black-car.jpg')) }} style={{ cursor: 'pointer' }}>
                                     <img className="col-2" src={require('../assets/icons/icon-black.jpg')} alt="black_icon" />
                                     <div className="col-10">
                                         <h3>Crystal Black</h3>
                                         <p>Pearl</p>
                                     </div>
                                 </div>
-                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => {this.renderCar(require('../assets/products/steel-car.jpg'))}} style={{cursor:'pointer'}}>
+                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => { this.renderCar(require('../assets/products/steel-car.jpg')) }} style={{ cursor: 'pointer' }}>
                                     <img className="col-2" src={require('../assets/icons/icon-steel.jpg')} alt="steel" />
                                     <div className="col-10">
                                         <h3>Moder Steel</h3>
                                         <p>Metallic</p>
                                     </div>
                                 </div>
-                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => {this.renderCar(require('../assets/products/silver-car.jpg'))}} style={{cursor:'pointer'}}>
+                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => { this.renderCar(require('../assets/products/silver-car.jpg')) }} style={{ cursor: 'pointer' }}>
                                     <img className="col-2" src={require('../assets/icons/icon-silver.jpg')} alt="silver" />
                                     <div className="col-10">
                                         <h3>Lunar Silver</h3>
                                         <p>Metallic</p>
                                     </div>
                                 </div>
-                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => {this.renderCar(require('../assets/products/red-car.jpg'))}} style={{cursor:'pointer'}}>
+                                <div className="row border border-link pt-2 pb-2 mt-2" onClick={() => { this.renderCar(require('../assets/products/red-car.jpg')) }} style={{ cursor: 'pointer' }}>
                                     <img className="col-2" src={require('../assets/icons/icon-red.jpg')} alt="red" />
                                     <div className="col-10">
                                         <h3>Rallye Black</h3>
@@ -56,7 +56,7 @@ export default class BaiTapChonXe extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>

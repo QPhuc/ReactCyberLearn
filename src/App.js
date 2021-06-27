@@ -12,7 +12,8 @@ import './App.css';
 // import RenderingCondition from './RenderingConditions/RenderingCondition';
 // import StateDemo from './State/StateDemo';
 // import Styling from './Styling/Styling';
-import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+// import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
 
 function App() {
 
@@ -27,7 +28,8 @@ function App() {
       {/* <RenderingCondition/> */}
       {/* <StateDemo /> */}
       {/* <Styling /> */}
-      <BaiTapChonXe />
+      {/* <BaiTapChonXe /> */}
+      <RenderWithLoop />
     </div>
   );
 }
