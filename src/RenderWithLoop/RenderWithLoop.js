@@ -10,12 +10,27 @@ export default class RenderWithLoop extends Component {
     ]
 
     renderTable = () => {
-        let mangTrComponent = [];
-        for (let index = 0; index < this.productList.length; index++) {
-            let product = this.productList[index];
-            //doi tuong jsx (co the console de kiem tra)
-            // console.log(<tr></tr>);
-            let trJSX = <tr key={index}>
+    // Cach 1: Dung Dong Lap For
+
+    // let mangTrComponent = [];
+    // for (let index = 0; index < this.productList.length; index++) {
+    //     let product = this.productList[index];
+    //     //doi tuong jsx (co the console de kiem tra)
+    //     // console.log(<tr></tr>);
+    //     let trJSX = <tr key={index}>
+    //         <td>{product.id}</td>
+    //         <td>{product.name}</td>
+    //         <td>{product.price}</td>
+    //         <td>
+    //             <img style={{ width: "100px" }} src={product.img} />
+    //         </td>
+    //         <td></td>
+    //     </tr>
+    // mangTrComponent.push(trJSX);
+    // Cach 2: Dung map
+
+    let mangTrComponent = this.productList.map((product, index) => {
+        return <tr key={index}>
                 <td>{product.id}</td>
                 <td>{product.name}</td>
                 <td>{product.price}</td>
@@ -24,9 +39,7 @@ export default class RenderWithLoop extends Component {
                 </td>
                 <td></td>
             </tr>
-            console.log(trJSX);
-            mangTrComponent.push(trJSX);
-        }
+        });
         return mangTrComponent;
     }
 
