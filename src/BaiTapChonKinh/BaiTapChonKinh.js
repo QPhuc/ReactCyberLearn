@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 
 export default class BaiTapChonKinh extends Component {
 
+    state = {
+        imgGlasses: './glassesImage/g1.jpg'
+    }
+
     renderGlasses = () => {
 
     }
