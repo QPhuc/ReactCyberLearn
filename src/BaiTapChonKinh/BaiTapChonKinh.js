@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 export default class BaiTapChonKinh extends Component {
+
+    renderGlasses = () => {
+
+    }
+
     render() {
         return (
             <div style={{backgroundImage:'url(./glassesImage/background.jpg)', minHeight:'700px'}}>
@@ -15,7 +20,13 @@ export default class BaiTapChonKinh extends Component {
                             </div>
                         </div>
                         <div className="row">
-
+                        <img style={{height:'100px', width:'100px'}} src="./glassesImage/g1.jpg" alt="model" />
+                        <img style={{height:'100px', width:'100px'}} src="./glassesImage/g2.jpg" alt="model" />
+                        <img style={{height:'100px', width:'100px'}} src="./glassesImage/g3.jpg" alt="model" />
+                        <img style={{height:'100px', width:'100px'}} src="./glassesImage/g4.jpg" alt="model" />
+                        <img style={{height:'100px', width:'100px'}} src="./glassesImage/g5.jpg" alt="model" />
+                        <img style={{height:'100px', width:'100px'}} src="./glassesImage/g6.jpg" alt="model" />
+                        {this.renderGlasses()}
                         </div>
                     </div>
                 </div>
