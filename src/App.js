@@ -14,7 +14,8 @@ import './App.css';
 // import Styling from './Styling/Styling';
 // import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 // import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
-import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
+// import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
+import BaiTapChonKinh from './BaiTapChonKinh/BaiTapChonKinh';
 
 function App() {
 
@@ -31,7 +32,8 @@ function App() {
       {/* <Styling /> */}
       {/* <BaiTapChonXe /> */}
       {/* <RenderWithLoop /> */}
-      <BaiTapRenderFilms />
+      {/* <BaiTapRenderFilms /> */}
+      <BaiTapChonKinh />
     </div>
   );
 }
